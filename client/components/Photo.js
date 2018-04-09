@@ -10,7 +10,7 @@ class Photo extends Component {
 				<div className="grid-photo-wrap">
 					<Link to={`/view/${post.code}`}>
 						<img
-							src={post.display_src}
+							src="https://source.unsplash.com/random"
 							alt={post.caption}
 							className="grid-photo"
 						/>
