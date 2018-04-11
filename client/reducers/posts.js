@@ -1,5 +1,4 @@
 function posts(state = [], action) {
-	console.log('reducer 1');
 	switch (action.type) {
 		case 'INCREMENT_LIKES':
 			console.log('Incrementing likes');
